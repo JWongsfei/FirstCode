@@ -71,13 +71,13 @@ class MyFTP(FTP):
 
 if __name__== "__main__":
     starttime = datetime.datetime.now()
-    HOST = '202.38.246.199'
-    PORT = 2100
-    USER = 'wang_lin_ge'
-    PASSWORD = '22236077'
+    HOST = 'xxx'
+    PORT = xx
+    USER = 'xxx'
+    PASSWORD = 'xxx'
     ftp = MyFTP()
-    remotepath = 'TEM 1400_20200115_周三_0830-1130_王林格_董东华(初) .xlsx'
-    localpath = 'C:/Users/Administrator/Desktop/FTPhelper_v1.0/TEM 1400_20191105_周二_0800-1200_王林格_董东华(初) .xlsx'
+    remotepath = 'FTP FILENAME'
+    localpath = 'LOCAL PATH'
     connect = 0
     TotalTag = False
     while True:
